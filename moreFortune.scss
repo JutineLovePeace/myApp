@@ -1,0 +1,137 @@
+*{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+    font-family:"microsoft yahei";
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    background:#F7F5F5;
+    
+}
+
+html{
+    font-size:26.67vw;
+}
+
+i,em,b{
+    font-style: normal;
+}
+
+.marginbot{
+    margin-bottom: .3rem;
+}
+
+#min-content{
+    display: flex;
+    flex-direction: column;
+    font-size:.16rem;
+    header{
+        width:100%;
+        height:1.5rem;
+        
+        #hea-top{
+            width:100%;
+            height:70%;
+            background:rgb(159,123,255);
+            position:relative;
+            a{
+                font-size:.3rem;
+                color:#fff;
+                padding:.2rem;
+            }
+            select{
+                width:50%;
+                height:40%;
+                position:absolute;
+                left:25%;
+                top:40%;
+            }
+        }
+        #hea-bot{
+            ul{
+                display: flex;
+                justify-content: space-between;
+                li{
+                    width:20%;
+                    line-height:.45rem;
+                    border-bottom: .03rem solid #666;
+                    text-align: center;
+                    
+                }
+               .borderBotColor{
+                        color:rgb(159,123,255);
+                        border-bottom-color:rgb(159,123,255);
+                    } 
+            }  
+        }
+    }
+    
+    section{
+        span{
+            font-weight: bolder;
+        }
+        i{
+            font-size:.14rem;
+        }
+        #core{
+            width:80%;
+            height:60%;
+            margin:0 auto;
+            border-bottom: .01rem solid #ccc;
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    width:50%;
+                    line-height:.5rem;
+                    
+                    i{
+                        padding-left: .2rem;
+                    }
+                }
+            } 
+        }
+        
+        #info{
+            width:80%;
+            height:60%;
+            margin:0 auto;
+            border-bottom: .01rem solid #ccc;
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    width:50%;
+                    line-height:.5rem;
+                    i{
+                        padding-left: 0.05rem;
+                    }
+                }
+            } 
+        }
+        
+        #MsgContent{
+            width:90%;
+            margin: .2rem auto;
+            h2{
+                font-size:.18rem;
+            }
+            
+        }
+    } 
+}
+
+#loadingTxt{
+    margin:.5rem auto;
+    p{
+        font-size: .2rem;
+        width: 60%;
+        margin:0 auto;
+        color:rgb(159,123,255);
+    }
+}

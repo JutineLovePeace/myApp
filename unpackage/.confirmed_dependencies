@@ -1,0 +1,81 @@
+{
+	"index.html": {
+		"resources": [
+			"js/src/personal.js",
+			"js/src/constellation.js",
+			"js/lib/jquery-1.8.3.js",
+			"css/style.css",
+			"view/index_ft.html",
+			"js/src/index_ft.js",
+			"js/src/tarrow.js",
+			"font/iconfont.css",
+			"img/star1.jpg",
+			"js/lib/swiper-3.4.1.min.css",
+			"view/moreFortune.html",
+			"font/iconfont.woff",
+			"view/footer.html",
+			"img/star5.jpg",
+			"js/src/constellationMatch.js",
+			"js/lib/swiper-3.4.1.min.js",
+			"img/star3.jpg",
+			"img/star2.png",
+			"img/star4.jpg",
+			"js/src/footer.js",
+			"view/tarrow.html",
+			"img/demo.jpg",
+			"view/constellation.html",
+			"view/constellationMatch.html",
+			"img/match_bg.jpg",
+			"view/lion.html",
+			"img/lion.jpg",
+			"img/timg.jpg",
+			"view/personal.html",
+			"img/shuangzi.jpg",
+			"view/allStar.html",
+			"img/juxie.jpg",
+			"img/cv.jpg",
+			"img/tp.jpg",
+			"img/by.jpg",
+			"view/login.html",
+			"img/star.gif",
+			"view/QR.html"
+		],
+		"refer": [
+			"view/moreFortune.html",
+			"view/login.html",
+			"view/QR.html"
+		]
+	},
+	"view/moreFortune.html": {
+		"resources": [
+			"js/src/moreFortune.js",
+			"js/lib/jquery-1.8.3.js",
+			"index.html",
+			"css/moreFortune.css"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"view/login.html": {
+		"resources": [
+			"font/iconfont.css",
+			"img/login.jpg",
+			"js/lib/jquery-1.8.3.js",
+			"css/login.css",
+			"js/src/login.js",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"view/QR.html": {
+		"resources": [
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	}
+}

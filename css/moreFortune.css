@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: "microsoft yahei";
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #F7F5F5; }
+
+html {
+  font-size: 26.67vw; }
+
+i, em, b {
+  font-style: normal; }
+
+.marginbot {
+  margin-bottom: .3rem; }
+
+#min-content {
+  display: flex;
+  flex-direction: column;
+  font-size: .16rem; }
+  #min-content header {
+    width: 100%;
+    height: 1.5rem; }
+    #min-content header #hea-top {
+      width: 100%;
+      height: 70%;
+      background: #9f7bff;
+      position: relative; }
+      #min-content header #hea-top a {
+        font-size: .3rem;
+        color: #fff;
+        padding: .2rem; }
+      #min-content header #hea-top select {
+        width: 50%;
+        height: 40%;
+        position: absolute;
+        left: 25%;
+        top: 40%; }
+    #min-content header #hea-bot ul {
+      display: flex;
+      justify-content: space-between; }
+      #min-content header #hea-bot ul li {
+        width: 20%;
+        line-height: .45rem;
+        border-bottom: .03rem solid #666;
+        text-align: center; }
+      #min-content header #hea-bot ul .borderBotColor {
+        color: #9f7bff;
+        border-bottom-color: #9f7bff; }
+  #min-content section span {
+    font-weight: bolder; }
+  #min-content section i {
+    font-size: .14rem; }
+  #min-content section #core {
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    border-bottom: .01rem solid #ccc; }
+    #min-content section #core ul {
+      display: flex;
+      flex-wrap: wrap; }
+      #min-content section #core ul li {
+        width: 50%;
+        line-height: .5rem; }
+        #min-content section #core ul li i {
+          padding-left: .2rem; }
+  #min-content section #info {
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    border-bottom: .01rem solid #ccc; }
+    #min-content section #info ul {
+      display: flex;
+      flex-wrap: wrap; }
+      #min-content section #info ul li {
+        width: 50%;
+        line-height: .5rem; }
+        #min-content section #info ul li i {
+          padding-left: 0.05rem; }
+  #min-content section #MsgContent {
+    width: 90%;
+    margin: .2rem auto; }
+    #min-content section #MsgContent h2 {
+      font-size: .18rem; }
+
+#loadingTxt {
+  margin: .5rem auto; }
+  #loadingTxt p {
+    font-size: .2rem;
+    width: 60%;
+    margin: 0 auto;
+    color: #9f7bff; }
+
+/*# sourceMappingURL=moreFortune.css.map */
